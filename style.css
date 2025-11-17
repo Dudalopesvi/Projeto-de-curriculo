@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightpink;
+    text-align: center;
+
+}
+
+input{
+    color: aliceblue;
+}
+
+.Projetos {
+    display: grid;
+    grid-auto-columns: 0.5fr;
+    grid-auto-rows: 0px;
+    grid-template-areas:
+        "P1 P2 P3 "
+        "P1 P4 P5 "
+        "P2 P4 P6 ";
+}
